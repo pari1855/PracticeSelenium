@@ -15,7 +15,9 @@ public class BaseClass {
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		return driver;
 		System.out.println("Driver Initialized");
+		System.out.println("Everything is perfect");
+		return driver;
+		
 	}
 }
