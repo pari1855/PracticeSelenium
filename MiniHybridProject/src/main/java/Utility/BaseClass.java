@@ -17,5 +17,6 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		return driver;
 		System.out.println("Driver Initialized");
+		System.out.println("Driver Initialized changes");
 	}
 }
